@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image {
+    flex: 0 0 calc(30% - 30px); /* Tres columnas con espacio entre imágenes */
+    margin: 5px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos adicionales para hacerlo atractivo visualmente */
+  .image img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+  
